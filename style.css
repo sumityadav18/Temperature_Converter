@@ -1,0 +1,54 @@
+body{
+    color: rgba(4, 70, 90, 0.795);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
+    
+    background:linear-gradient(to left bottom,rgb(25, 143, 25),rgb(194, 211, 216));
+}
+.container{
+    background:linear-gradient(to left bottom,rgba(139, 33, 131, 0.753),rgba(154, 72, 57, 0.725));
+    /* background-color:rgba(119, 206, 218, 0.425); */
+    width: 500px;
+    height: 300px;
+    padding:20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 10px rgb(21, 22, 21);
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.temperature_icon{
+    font-size: 35px;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Castellar';
+}
+.col{
+    width: 100%;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 15px;
+}
+input{
+    width: 230px;
+    height: 25px;
+    float: right;
+    background: rgba(176, 253, 253, 0.904);
+    border-color:rgba(55, 139, 104, 0.7);
+    font-size: 18px;
+}
+input::value{
+    color: darkolivegreen;
+}
